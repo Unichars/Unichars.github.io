@@ -1,4 +1,6 @@
 @import './colors.less';
+@import './constants.less';
+@import './font.less';
 
 *,
 *::before,
@@ -6,11 +8,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: system-ui, sans-serif;
+    font-family: Nunito;
     font-weight: 300;
+    text-decoration: none;
     color-scheme: dark;
     list-style: none;
     // scrollbar-gutter: stable;
 }
 
+body {
+    background-color: var(--color-body-bg);
 
+    
+}

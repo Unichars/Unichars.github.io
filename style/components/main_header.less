@@ -1,0 +1,54 @@
+@import '../colors.less';
+@import '../constants.less';
+
+.main-header {
+    display: flex;
+    padding: 0 20px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-header-bg);
+    border-bottom: 1px solid var(--color-border);
+
+    .title {
+        color: var(--color-text-fg);
+        font-size: 2em;
+        font-weight: 500;
+    }
+
+    .theme-toggle {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        aspect-ratio: 1;
+        border-radius: @circle-radius;
+        background-color: var(--color-theme-toggle-bg);
+        user-select: none;
+        cursor: pointer;
+        appearance: none;
+        transition: filter 200ms ease-in-out;
+        box-shadow: 0 0 5px 1px var(--color-box-shadow);
+
+        .icon {
+            position: absolute;
+            pointer-events: none;
+            fill: currentColor;
+            color: var(--color-text-fg);
+            opacity: 0;
+
+            &[active] {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+body[data-theme="dark"] .main-header .theme-toggle:hover {
+    filter: brightness(120%);
+}
+
+body[data-theme="light"] .main-header .theme-toggle:hover {
+    filter: brightness(90%);
+}

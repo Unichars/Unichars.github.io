@@ -1,10 +1,26 @@
 
 :root {
-    @media (prefers-color-scheme: dark) {
-        --color-header-bg: #22272e;
+    body[data-theme="dark"] {
+        --color-text-fg: #d9dfe3;
+        --color-body-bg: #22272e;
+        --color-header-bg: #2d323a;
+        --color-theme-toggle-bg: #3d444e;
+        --color-box-shadow: rgba(0, 0, 0, 0.1);
+        --color-border: #1f2124;
     }
 
-    @media (prefers-color-scheme: light) {
-        
+    body[data-theme="light"]  {
+        --color-text-fg: #292e34;
+        --color-body-bg: #f0f1f1;
+        --color-header-bg: #dde0e3;
+        --color-theme-toggle-bg: #cbcbcc;
+        --color-box-shadow: rgba(0, 0, 0, 0.2);
+        --color-border: #cbcfd9;
+    }
+
+    body {
+        transition:
+            color 100ms ease-in-out,
+            background-color 250ms ease-in-out;
     }
 }
