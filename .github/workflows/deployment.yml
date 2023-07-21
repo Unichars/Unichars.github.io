@@ -45,9 +45,11 @@ jobs:
   deploy:
     name: Deploy Page
     needs: [test]
-    environment:
-      name: github-pages
-      url: ${{steps.deployment.outputs.page_url}}
+    # environment:
+    #   name: github-pages
+    #   url: ${{steps.deployment.outputs.page_url}}
+    env:
+      page-root-directory: './src/client'
 
     runs-on: ubuntu-latest
     steps:
@@ -61,7 +63,7 @@ jobs:
         if: (!github.event.inputs.page-root-directory)
         uses: actions/upload-pages-artifact@v2
         with:
-          path: './src/client'
+          path: ${{env.page-root-directory}}
 
       - name: Upload artifact (Workflow Dispatch)
         if: (github.event.inputs.page-root-directory)
