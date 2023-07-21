@@ -1,0 +1,10 @@
+{
+    "exclude": [
+        "**/*.test.ts"
+    ],
+    "test": {
+        "include": [
+            "**/*.test.ts"
+        ]
+    }
+}

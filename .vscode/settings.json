@@ -1,0 +1,10 @@
+{
+    "deno.enable": true,
+    "deno.unstable": true,
+    "deno.enablePaths": [
+        "./src/server",
+        "./test",
+        "./lib"
+    ],
+    "liveServer.settings.root": "./src/client"
+}
