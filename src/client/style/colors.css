@@ -1,0 +1,67 @@
+:root {
+    --primary-shade-100-color: hwb(284 86% 2%);
+    --primary-shade-200-color: hwb(284 72% 4%);
+    --primary-shade-300-color: hwb(284 52% 5%);
+    --primary-shade-400-color: hwb(284 30% 8%);
+    --primary-shade-500-color: hwb(284 10% 22%);
+    --primary-shade-600-color: hwb(284 6% 46%);
+    --primary-shade-700-color: hwb(284 4% 62%);
+    --primary-shade-800-color: hwb(284 2% 76%);
+    --primary-shade-900-color: hwb(284 0% 84%);
+    --primary-color: var(--primary-shade-500-color);
+    
+    --neutral-shade-100-color: hwb(210 93% 5%);
+    --neutral-shade-200-color: hwb(210 78% 18%);
+    --neutral-shade-300-color: hwb(210 56% 38%);
+    --neutral-shade-400-color: hwb(210 36% 58%);
+    --neutral-shade-500-color: hwb(210 26% 67%);
+    --neutral-shade-600-color: hwb(210 16% 77%);
+    --neutral-shade-700-color: hwb(210 11% 82%);
+    --neutral-shade-800-color: hwb(210 3% 89%);
+    --neutral-shade-900-color: hwb(210 0% 95%);
+    --neutral-color: var(--neutral-shade-500-color);
+
+    --success-shade-100-color: hwb(91 84% 5%);
+    --success-shade-200-color: hwb(91 75% 5%);
+    --success-shade-300-color: hwb(91 51% 7%);
+    --success-shade-400-color: hwb(91 29% 8%);
+    --success-shade-500-color: hwb(91 10% 21%);
+    --success-shade-600-color: hwb(91 5% 41%);
+    --success-shade-700-color: hwb(91 2% 58%);
+    --success-shade-800-color: hwb(91 1% 75%);
+    --success-shade-900-color: hwb(91 0% 86%);
+    --success-color: var(--success-shade-500-color);
+
+    --warning-shade-100-color: hwb(47 89% 4%);
+    --warning-shade-200-color: hwb(47 73% 5%);
+    --warning-shade-300-color: hwb(47 46% 8%);
+    --warning-shade-400-color: hwb(47 27% 10%);
+    --warning-shade-500-color: hwb(47 10% 22%);
+    --warning-shade-600-color: hwb(47 5% 39%);
+    --warning-shade-700-color: hwb(47 2% 63%);
+    --warning-shade-800-color: hwb(47 1% 76%);
+    --warning-shade-900-color: hwb(47 0% 93%);
+    --warning-color: var(--warning-shade-500-color);
+    
+    --danger-shade-100-color: hwb(7 90% 2%);
+    --danger-shade-200-color: hwb(7 68% 4%);
+    --danger-shade-300-color: hwb(7 50% 6%);
+    --danger-shade-400-color: hwb(7 23% 9%);
+    --danger-shade-500-color: hwb(7 10% 21%);
+    --danger-shade-600-color: hwb(7 4% 41%);
+    --danger-shade-700-color: hwb(7 2% 58%);
+    --danger-shade-800-color: hwb(7 1% 77%);
+    --danger-shade-900-color: hwb(7 0% 92%);
+    --danger-color: var(--danger-shade-500-color);
+    
+    --info-shade-100-color: hwb(209 89% 3%);
+    --info-shade-200-color: hwb(209 69% 5%);
+    --info-shade-300-color: hwb(209 53% 7%);
+    --info-shade-400-color: hwb(209 24% 12%);
+    --info-shade-500-color: hwb(209 10% 21%);
+    --info-shade-600-color: hwb(209 5% 40%);
+    --info-shade-700-color: hwb(209 2% 54%);
+    --info-shade-800-color: hwb(209 2% 74%);
+    --info-shade-900-color: hwb(209 0% 93%);
+    --info-color: var(--info-shade-500-color);
+}
