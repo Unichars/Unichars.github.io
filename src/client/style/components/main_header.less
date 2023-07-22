@@ -1,0 +1,36 @@
+.main-header {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--neutral-shade-800-color);
+    background-color: var(--neutral-shade-600-color);
+
+    .title {
+        font-size: 30px;
+        color: var(--neutral-shade-100-color);
+    }
+    
+    .links {
+        display: grid;
+        height: 100%;
+        grid-auto-flow: column;
+        gap: 5px;
+
+        .link {
+            display: flex;
+            padding: 5px;
+            border-radius: 4px;
+            transition: background-color 70ms ease-in-out;
+            
+            &:hover {
+                background-color: var(--neutral-shade-500-color);
+            }
+
+            .icon {
+                height: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('./Nunito-ExtraLight.ttf');
+    font-style: normal;
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('./Nunito-ExtraLightItalic.ttf');
+    font-style: italic;
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('./Nunito-Light.ttf');
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('./Nunito-LightItalic.ttf');
+    font-style: italic;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('./Nunito.zip');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('./Nunito-Italic.ttf');
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('./Nunito-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('./Nunito-Medium.ttf');
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('./Nunito-MediumItalic.ttf');
+    font-style: italic;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('./Nunito-SemiBold.ttf');
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('./Nunito-SemiBoldItalic.ttf');
+    font-style: italic;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('./Nunito-Bold.ttf');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('./Nunito-BoldItalic.ttf');
+    font-style: italic;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('./Nunito-ExtraBold.ttf');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('./Nunito-ExtraBoldItalic.ttf');
+    font-style: italic;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('./Nunito-Black.ttf');
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('./Nunito-BlackItalic.ttf');
+    font-style: italic;
+    font-weight: 900;
+}
