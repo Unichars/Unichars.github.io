@@ -1,8 +1,12 @@
+@import './colors.css';
+@import '../font/Nunito/index.css';
 @import './components/main_header.less';
 @import './components/main_section.less';
 @import './components/main_footer.less';
-@import './colors.css';
-@import '../font/Nunito/index.css';
+
+@import './modifiers/focus_underline.less';
+@import './modifiers/focus_box.less';
+
 
 *,
 *::before,
@@ -13,6 +17,7 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Nunito';
+    outline: none;
     color-scheme: dark;
 }
 
