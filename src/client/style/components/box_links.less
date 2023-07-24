@@ -1,0 +1,19 @@
+.box-links {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5px;
+
+    &__link {
+        display: flex;
+        height: 25px;
+        padding: 4px;
+        border: 1px solid var(--neutral-shade-400-color);
+        border-radius: 3px;
+        background-color: var(--neutral-shade-700-color);
+        transition: background-color 70ms ease-in-out;
+        
+        &:hover {
+            background-color: var(--neutral-shade-600-color);
+        }
+    }
+}

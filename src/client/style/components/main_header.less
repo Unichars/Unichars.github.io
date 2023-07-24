@@ -10,39 +10,10 @@
     user-select: none;
     background-color: var(--neutral-shade-600-color);
 
-    .title {
+    &__title {
         font-size: 23px;
         font-weight: 600;
         letter-spacing: 0.5px;
         color: var(--neutral-shade-100-color);
-    }
-    
-    .search {
-        max-width: 400px;
-        height: 25px;
-        padding: 0 5px;
-        border: 1px solid var(--neutral-shade-400-color);
-        border-radius: 3px;
-        background-color: var(--neutral-shade-700-color);
-    }
-
-    .links {
-        display: grid;
-        grid-auto-flow: column;
-        gap: 5px;
-
-        .link {
-            display: flex;
-            height: 25px;
-            padding: 4px;
-            border: 1px solid var(--neutral-shade-400-color);
-            border-radius: 3px;
-            background-color: var(--neutral-shade-700-color);
-            transition: background-color 70ms ease-in-out;
-            
-            &:hover {
-                background-color: var(--neutral-shade-600-color);
-            }
-        }
     }
 }
