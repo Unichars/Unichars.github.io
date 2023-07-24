@@ -1,3 +1,32 @@
-.unicodes {
+.unicodes-list {
     display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(auto-fill, 50px);
+    justify-content: center;
+
+    &__entry {
+        display: flex;
+        padding: 10px;
+        aspect-ratio: 1;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        border: 1px solid var(--neutral-shade-500-color);
+        background-color: var(--neutral-shade-600-color);
+        transition: background-color 70ms ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+            background-color: var(--neutral-shade-500-color);
+
+            .unicode {
+                color: var(--neutral-shade-200-color);
+            }
+        }
+
+        .unicode {
+            color: var(--neutral-shade-300-color);
+            transition: color 70ms ease-in-out;
+        }
+    }
 }
