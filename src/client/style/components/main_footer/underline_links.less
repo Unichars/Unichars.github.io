@@ -1,0 +1,15 @@
+.underline-links {
+    display: flex;
+    gap: 20px;
+    flex-shrink: 0;
+    justify-content: end;
+
+    &__link {
+        color: var(--neutral-shade-300-color);
+        text-underline-offset: 3px;
+
+        &:hover {
+            text-decoration-line: underline;
+        }
+    }
+}

@@ -1,14 +1,19 @@
 @import './colors.css';
 @import '../font/Nunito/index.css';
 
-@import './components/main_header.less';
-@import './components/unicode_search_bar.less';
-@import './components/box_links.less';
-@import './components/main_section.less';
-@import './components/unicode_section.less';
-@import './components/group_name.less';
-@import './components/unicodes.less';
-@import './components/main_footer.less';
+@import './components/main_header/index.less';
+@import './components/main_header/unicode_search_bar.less';
+@import './components/main_header/box_links.less';
+
+@import './components/main_section/index.less';
+@import './components/main_section/unicode_section/index.less';
+@import './components/main_section/unicode_section/group_details.less';
+@import './components/main_section/unicode_section/unicodes_list.less';
+@import './components/main_section/unicode_section/unicode_charcter.less';
+
+@import './components/main_footer/index.less';
+@import './components/main_footer/copyright.less';
+@import './components/main_footer/underline_links.less';
 
 @import './modifiers/focus_underline.less';
 @import './modifiers/focus_box.less';
